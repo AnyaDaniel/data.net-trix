@@ -6,10 +6,10 @@ const Why = () => {
     <div className='py-20 px-20'>
         <h1 className="text-[40px] pb-16 pl-10 flex items-end">Why us?</h1>
         <div className="flex justify-center items-start gap-5">
-            <WhyCards heading='Result-oriented' text="For our company, the only indicator of the project&apos;s success is the achievement of the goals and objectives set by the client. Due to high-quality project management and a team of IT talents, we carry out our work as quickly and efficiently as possible." />
-            <WhyCards heading='Flexible' text='Our team already numbers 1800+ highly qualified IT professionals. It allows us to quickly adapt to the needs of our clients. We provide rapid team ramp-up and easily scale it up and down depending on the changing conditions of the project.'/>
-            <WhyCards heading="Transparent" text="Our cooperation with clients is always open and honest. We ensure regular communication, an established daily reporting system, and tracking tools according to the client&apos;s preferences. Thus, our clients can control all possible aspects of projects."/>
-            <WhyCards heading='Experienced' text="Innowise has established well-managed processes to deliver software development services. They are based on the best examples of IT outsourcing and can be easily aligned to the specifics of customers and their projects."/>
+            <WhyCards heading='Proven Expertise:' text="Our team of certified cybersecurity professionals has years of experience in delivering data protection services that meet the highest standards in the industry." />
+            <WhyCards heading='Regulatory Compliance Leadership:' text=' As a licensed DPCO, we offer unmatched expertise in navigating complex regulatory landscapes, ensuring your business is always ahead of compliance requirements.'/>
+            <WhyCards heading="Tailored Solutions: " text="We understand that every business is unique, so we customize our services, from firewall setup to compliance training, to fit your organization's specific needs."/>
+            <WhyCards heading='Comprehensive Service Portfolio: ' text="From conducting privacy impact assessments (PIA) to delivering SOC centers, we provide end-to-end cybersecurity solutions to protect your business against emerging threats."/>
         </div>
     </div>
   )

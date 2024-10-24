@@ -21,9 +21,9 @@ const Hero = () => {
     <main className={koulen.className}>
         <div className='bg-[#13901F] md:pl-20 md:flex items-center md:h-screen w-screen '>
             <div className="md:w-[60%] px-4 md:px-0 h-fit text-white">
-                <h1 className="font-[400] text-[60px] md:text-[100px] pt-20">DATA PROTECTION</h1>
-                <p className="font-[400] text-[30px] mb-20 pt-1 uppercase">Lorem ipsum dolor sit ame consectetur.orem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit ame consectetur.orem ipsum dolor sit amet consectetur.</p>
-                <Link href='' className={`${inria_sans.className} antialiased px-10 py-2 outline-none bg-white rounded-[50px] hover:text-[#13901F] text-black text-[36px]`}>Quiet Hire</Link>
+                <h1 className="font-[300] text-[20px] md:text-[40px] pt-20">Safeguarding Your Data, Ensuring Compliance</h1>
+                <p className="font-[100] text-[18px] mb-20 pt-1 uppercase">In today’s digital age, protecting data is essential for safeguarding your company’s reputation and ensuring operational continuity. At Net-Trix Solutions, we lead the way in data protection and compliance as a licensed Data Protection Compliance Organization with the Nigerian Data Protection Bureau.</p>
+                <Link href='' className={`${inria_sans.className} antialiased px-10 py-2 outline-none bg-white rounded-[50px] hover:text-[#13901F] text-black text-[36px]`}>Get Involved</Link>
             </div>
             <Image src={'/hero.png'} alt='hero' className='right-0 top-16 md:absolute' width={600} height={800} />
         </div>

@@ -12,16 +12,16 @@ const Challenges = () => {
         </div>
         <div className="flex justify-center items-start">
             <div className="">
-                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>IT expertise gap</h1>
-                <p className="text-[20px]">We help our customers get rid of expertise and technological gaps, offering the experienced teams of IT professionals to complete software development projects of any complexity.</p>
+                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>Multi-National Compliance Gaps</h1>
+                <p className="text-[20px]">We helped a global e-commerce platform bridge compliance gaps between GDPR and local data protection laws, enabling seamless cross-border data operations.</p>
             </div>
             <div className="px-10">
-                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>Cost reduction</h1>
-                <p className="text-[20px]">Innowise provides IT outsourcing services and helps clients around the world to optimize software development costs. Our team has all the needed expertise to carry out turnkey projects, quickly complete tasks and bring all the benefits of outsourcing.</p>
+                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>Customized Training for Large Enterprises</h1>
+                <p className="text-[20px]">We designed and delivered a custom training program for a multinational corporation, ensuring that over 5,000 employees across multiple regions were fully compliant with GDPR, CCPA, and NDPR regulations.</p>
             </div>
             <div className="">
-                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>Digital transformation</h1>
-                <p className="text-[20px]">Our team can help you plan and implement digital transformation initiatives, covering all possible stages. Innowise is a reliable partner on the path to digital success and business optimization.</p>
+                <h1 className="text-[30px] pb-3 flex items-center"><span className='text-[#F8C301] text-[16px] pr-3' ><BsCircleFill/></span>End-to-End Compliance Audits</h1>
+                <p className="text-[20px]">We conducted in-depth compliance audits for various sectors, including healthcare and fintech, helping them pass regulatory inspections with zero fines or penalties.</p>
             </div>
         </div>
         </div>
