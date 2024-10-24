@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.triangle{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.image-mask{
+  -webkit-clip-path: polygon(100% 0, 100% 70%, 70% 100%, 0 100%);
+  clip-path: polygon(100% 0, 100% 70%, 70% 100%, 0 100%);
+}
+
+.parallax-element{
+  vertical-align: top;
+  max-width: 100% !important;
+    height: auto !important;
+}
+
+.cardimg{
+  width: 100% !important;
+  height: 356px !important;
+}
+
+.single{
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,.2);
+}
+
+/* about page styling */
+.about-triangle{
+  border-bottom: 300px solid #13901F70;
+  border-left: 400px solid transparent;
+  /* margin-left: 10px; */
+}
+
+.line{
+  height: 5px;
+  background-color: #13901F;
+  width: 100px;
+
+}
