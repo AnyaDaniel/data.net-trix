@@ -20,7 +20,7 @@ const Mission = () => {
         </div>
         <div className="">
                 <h1 className="text-[#13901F] text-[25px] pb-2 mt-5">Values</h1>
-                <p className="text-[18px] pb-4">Our company&apos;s vision are:
+                <p className="text-[18px] pb-4">Our company&apos;s values are:
                     <ol>
                         <li>1. Integrity:- We believe in transparent, ethical business practices and prioritize trust in every relationship we build.</li>
                         <li>
@@ -30,7 +30,7 @@ const Mission = () => {
                         3. Innovation:- We embrace innovation as a core principle, ensuring that our clients benefit from the latest in cybersecurity advancements.
                         </li>
                         <li>
-                        4. Customer-Centricity:- Your success is our success. We focus on understanding your needs and delivering solutions that not only meet but exceed your expectation
+                        4. Customer-centricity:- Your success is our success. We focus on understanding your needs and delivering solutions that not only meet but exceed your expectation
                         </li>
                     </ol>
                 </p>

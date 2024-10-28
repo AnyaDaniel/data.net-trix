@@ -32,7 +32,6 @@ body {
 .parallax-element{
   vertical-align: top;
   max-width: 100% !important;
-    height: auto !important;
 }
 
 .cardimg{
@@ -56,4 +55,16 @@ body {
   background-color: #13901F;
   width: 100px;
 
+}
+
+/* contact styling */
+.contactimg{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.contact-triangle{
+  border-bottom: 200px solid #13901F70;
+  border-left: 300px solid transparent;
+  /* margin-left: 10px; */
 }

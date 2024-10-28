@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inria_Sans } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-const inria_sans = Inria_Sans({
+const poppins = Poppins({
    weight: ['300', '400', '700'],
    subsets: ['latin'],
    style: ['normal', 'italic']
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inria_sans.className} antialiased overflow-x-hidden`}
+        className={`${poppins.className} antialiased overflow-x-hidden`}
       >
         <Navbar/>
         {children}

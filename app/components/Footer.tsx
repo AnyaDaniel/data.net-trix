@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#13901F] rounded-t-[50px] text-white'>
+    <div className='w-full bg-[#27592D] rounded-t-[50px] text-white'>
         <div className="md:flex items-start justify-center bg-[url('/pngtree.png')] bg-cover py-32 px-4 md:px-0">
             <div className="md:px-20 md:w-1/2 pt-20 border-r-[#FFFFFF52] md:border-r-2">
                 <h1 className="text-[34px] pb-5 font-[700]">NET-TRIX</h1>
