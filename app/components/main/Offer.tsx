@@ -54,43 +54,107 @@ const Offer = () => {
             
             <Link href={'/services'} className='text-[#27592D] hover:text-[#13901F] text-[25px]'>See full details</Link>
         </div>
-        <div className="w-[65%] pl-20 pt-40  h-screen">
+        <div className="w-[65%] pl-20 pt-32  h-screen">
             <div className="w-[100%] h-[30vh] rounded-lg mr-40 bg-[#1390205e]">
                 <div className="slider-container pt-10">
                     <Slider {...settings}>
-                        <div className="px-5 relative">
-                            <div className="bg-[#f8f8f9] rounded-lg pt-10 px-10 pb-5  ">
+                        <div className="px-5  ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
                                 <div className="flex flex-col items-center justify-center text-center ">
                                         <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
-                                        <h1 className="text-[30px] leading-none py-10 ">Data Minimization</h1>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Collection and Consent</h1>
+                                        <Link href={''} className='mb-0 mt-auto' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Minimization</h1>
                                         <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="px-5">
-                            <div className="bg-[#f8f8f9] rounded-lg pt-10 px-10 pb-5  ">
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
                                 <div className="flex flex-col items-center justify-center text-center ">
                                         <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
-                                        <h1 className="text-[30px] leading-none py-10 ">Data Minimization</h1>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Security</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Transparency and Accountability</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Sharing and Third-Party Partnership</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Breach Response and Notification</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Data Subject Right</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Privacy by Design and Default</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center ">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Training and Awareness</h1>
+                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="px-5 ">
+                            <div className="bg-[#f8f8f9] h-[470px] rounded-lg pt-10 px-10 pb-5  ">
+                                <div className="flex flex-col items-center justify-center text-center">
+                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
+                                        <h1 className="text-[30px] leading-tight py-10 ">Compliance and Governance</h1>
                                         <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
                                 </div>
                             </div>
                         </div>
 
-                        {/* second to last carousel */}
+                        {/* second to last and last carousel */}
                         {/* should never be replaced */}
                         <div className=""></div>
+                        <div className=""></div>
 
-                        {/* this next carousel dev can be replaced */}
-                        <div className="px-5">
-                            <div className="bg-[#f8f8f9] rounded-lg pt-10 px-10 pb-5  ">
-                                <div className="flex flex-col items-center justify-center text-center ">
-                                        <div className="rounded-[50%] bg-[#2e2e2e0e]  flex justify-center w-[150px] h-[150px] items-center "><AiOutlineCodepen className='text-[100px] text-[#13901F]' /></div>
-                                        <h1 className="text-[30px] leading-none py-10 ">Data Minimization</h1>
-                                        <Link href={''} className='  ' ><FaCircleChevronRight className='text-[30px] text-[#13901F] hover:text-[#27592D]' /></Link>
-                                </div>
-                            </div>
-                        </div>
+
                         
                     </Slider>
                 </div>
