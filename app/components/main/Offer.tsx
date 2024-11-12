@@ -151,8 +151,7 @@ const Offer = () => {
 
                         {/* second to last and last carousel */}
                         {/* should never be replaced */}
-                        <div className=""></div>
-                        <div className=""></div>
+                        {/* <div className=""></div> */}
 
 
                         

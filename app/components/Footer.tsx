@@ -25,7 +25,7 @@ const Footer = () => {
                 <h1 className="text-[32px] pb-3 font-[700]">Subscribe</h1>
                 <p className="text-[14px] pb-7">Keep me up to date with content, updates, and offers from Net-Trix</p>
                 <div className="flex justify-center items-center">
-                    <input type="text" name="" placeholder='Email Address' className='text-[#E5E5E540] text-[18px] p-5 border-[#F8C301] border-2 bg-transparent' />
+                    <input type="text" name="" placeholder='Email Address' className='text-[#E5E5E540] text-[18px] p-5 border-[#F8C301] border-2 bg-transparent outline-none' />
                     <button className="bg-[#F8C301] text-white py-6 px-10">Submit</button>
                 </div>
                 </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="w-[50%]">
                         <h1 className="text-[24px] pb-5 font-[700]">About Us</h1>
                         <ul>
-                        <li className='mb-5 text-[20px]'><Link href={''} className=' hover:text-[#F8C301]'>Home</Link></li>
+                        <li className='mb-5 text-[20px]'><Link href={'https://net-trixsolutions.com/'} className=' hover:text-[#F8C301]'>Home</Link></li>
                         <li className='my-5 text-[20px]'><Link href={''} className=' hover:text-[#F8C301]'>Industries</Link></li>
                         <li className='my-5 text-[20px]'><Link href={''} className=' hover:text-[#F8C301]'>Services</Link></li>
                         </ul>

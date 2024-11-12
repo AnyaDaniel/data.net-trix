@@ -20,10 +20,10 @@ const page = () => {
         </div>
         <div className="w-1/3">
             <div className="relative mb-10">
-                <Image src={'/contactimg.png'} alt='contactimg' className='contactimg' width={100} height={500}/>
+                <Image src={'/contactimg.jpg'} alt='contactimg' className='contactimg' width={100} height={500}/>
                 <div className="contact-triangle absolute -right-5 -bottom-5"></div>
             </div>
-            <p className="text-[20px]">You can also send us your request to <Link href={'mailto:contact@innowise.com'} className='text-[#13901F] hover:text-[#F8C301]'>contact@innowise.com</Link> or call: <br />Usa: +1 917 267 7727<br />Nigeria: +1 917 267 7727</p>
+            <p className="text-[20px]">You can also send us your request to <Link href={'mailto:info@net-trixsolutions.com'} className='text-[#13901F] hover:text-[#F8C301]'>info@net-trixsolutions.com</Link> or call: <br />+234 906 000 0456</p>
         </div>
 
     </div>
