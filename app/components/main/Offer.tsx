@@ -7,29 +7,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { AiOutlineCodepen } from 'react-icons/ai';
-import { FaCircleArrowLeft, FaCircleChevronRight } from 'react-icons/fa6';
+import { FaCircleChevronRight } from 'react-icons/fa6';
 
-
-function SampleNextArrow(props) {
-    const { className, onClick } = props;
-    return (
-      <div
-        className={className}
-        onClick={onClick}
-      ></div>
-    );
-  }
-  
-  function SamplePrevArrow(props) {
-    const { className, onClick } = props;
-    return (
-      <div
-        className={className}
-        onClick={onClick}
-
-      ><FaCircleArrowLeft className="text-green-500 " /></div>
-    );
-  }
 
 const Offer = () => {
     const settings = {
@@ -39,8 +18,6 @@ const Offer = () => {
       centerPadding: "60px",
       slidesToShow: 2,
       speed: 500,
-      nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
     };
   return (
     <div className='flex items-center'>
