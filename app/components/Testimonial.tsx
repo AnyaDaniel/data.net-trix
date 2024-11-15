@@ -80,7 +80,7 @@ const Testimonial = () => {
             <div className="border-2 border-[#F8C301] rounded-xl py-10 px-4 md:px-20 flex justify-start items-start">
                 <div className=""><FaQuoteLeft className='text-[#13901F] text-[30px]' /></div>
                 <div className="px-4 md:px-10 pt-5">
-                    <p className="md:text-[20px] pb-10 text-left">Innowise was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
+                    <p className="md:text-[20px] pb-10 text-left">Net Trix was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
                     <p className="font-[700] md:text-[20px] text-right pr-5">Dr. Udo Richter</p>
                     <p className="md:text-[20px] text-right py-1 pr-5">Director</p>
                     <p className="md:text-[20px] text-right pr-5">Naip</p>
@@ -89,7 +89,7 @@ const Testimonial = () => {
             <div className="border-2 border-[#F8C301] rounded-xl py-10 px-4 md:px-20 flex justify-start items-start">
                 <div className=""><FaQuoteLeft className='text-[#13901F] text-[30px]' /></div>
                 <div className="px-4 md:px-10 pt-5">
-                    <p className="md:text-[20px] pb-10 text-left">Innowise was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
+                    <p className="md:text-[20px] pb-10 text-left">Net Trix was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
                     <p className="font-[700] md:text-[20px] text-right pr-5">Dr. Udo Richter</p>
                     <p className="md:text-[20px] text-right py-1 pr-5">Director</p>
                     <p className="md:text-[20px] text-right pr-5">Naip</p>
@@ -98,7 +98,7 @@ const Testimonial = () => {
             <div className="border-2 border-[#F8C301] rounded-xl py-10 px-4 md:px-20 flex justify-start items-start">
                 <div className=""><FaQuoteLeft className='text-[#13901F] text-[30px]' /></div>
                 <div className="px-4 md:px-10 pt-5">
-                    <p className="md:text-[20px] pb-10 text-left">Innowise was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
+                    <p className="md:text-[20px] pb-10 text-left">Net Trix was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
                     <p className="font-[700] md:text-[20px] text-right pr-5">Dr. Udo Richter</p>
                     <p className="md:text-[20px] text-right py-1 pr-5">Director</p>
                     <p className="md:text-[20px] text-right pr-5">Naip</p>
@@ -107,7 +107,7 @@ const Testimonial = () => {
             <div className="border-2 border-[#F8C301] rounded-xl py-10 px-4 md:px-20 flex justify-start items-start">
                 <div className=""><FaQuoteLeft className='text-[#13901F] text-[30px]' /></div>
                 <div className="px-4 md:px-10 pt-5">
-                    <p className="md:text-[20px] pb-10 text-left">Innowise was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
+                    <p className="md:text-[20px] pb-10 text-left">Net Trix was selected due to its extensive experience of developing complex medical solutions. They managed to quickly and effectively put together a team of IT-specialists. Innowise is characterized by efficient and professional organization of its operation practices.</p>
                     <p className="font-[700] md:text-[20px] text-right pr-5">Dr. Udo Richter</p>
                     <p className="md:text-[20px] text-right py-1 pr-5">Director</p>
                     <p className="md:text-[20px] text-right pr-5">Naip</p>
